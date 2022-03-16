@@ -17,6 +17,10 @@ html {
     font-size: 65px;
 }
 
+#date1 {
+    font-size: 20px;
+}
+
 #neonbutton{
     position: relative;
     display: inline-block;
