@@ -13,6 +13,12 @@ html {
     scroll-behavior: smooth; 
     }
 
+.WebContainer{
+    width:100%;
+    min-width:1000px;
+    height:auto;
+}
+
 #name1 {
     font-size: 65px;
 }
