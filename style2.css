@@ -175,7 +175,7 @@ html {
         .bgimg-2,
         .bgimg-3 {
             background-attachment: scroll;
-            min-height: 400px;
+            min-height: 350px;
         }
     }
 
