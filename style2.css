@@ -15,7 +15,7 @@ html {
 
 .WebContainer{
     width:100%;
-    width:800px;
+    min-width:600px;
     height:auto;
 }
 
@@ -30,7 +30,7 @@ html {
 #neonbutton{
     position: relative;
     display: inline-block;
-    padding: 15px 30px;
+    padding: 13px 20px;
     margin-bottom: 75px;
     margin-top: 15px;
     color: black;
@@ -39,15 +39,15 @@ html {
     text-decoration: none;
     font-size: 13px;
     overflow: hidden;
-    transition: 0.2s;
-    border-radius: 12px;
+    transition: 0.15s;
+    border-radius: 6px;
 
 }
 #neonbutton:hover{
     color:red;
     background: white;
     box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red;
-    transition-delay: 0.2s;
+    transition-delay: 0.15s;
 } 
 #neonbutton span{
     position: absolute;
