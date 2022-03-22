@@ -13,10 +13,15 @@ html {
     scroll-behavior: smooth; 
     }
 
-.WebContainer{
+reset {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+/*.WebContainer{
     width:auto;
     height:auto;
-}
+}*/
 
 #name1 {
     font-size: 65px;
