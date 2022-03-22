@@ -13,15 +13,20 @@ html {
     scroll-behavior: smooth; 
     }
 
-reset {
-    margin: 0;
-    padding:0;
-    box-sizing: border-box;
-}
-/*.WebContainer{
+    @media only screen and (max-width: 700px) {
+        body {
+           margin: 0;
+           padding: 0;
+        }
+        .sample {
+           width: 100%;
+        }
+     }
+     
+.WebContainer{
     width:auto;
     height:auto;
-}*/
+}
 
 #name1 {
     font-size: 65px;
